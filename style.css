@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('olena-bohovyk-Cq5NaI0yKBE-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(179, 157, 157);
+    border-radius: 40px;
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(179, 161, 161);
+}
+#taskInput{
+    width: 80%;
+    height: 50px;
+    background: rgb(83, 76, 76);
+    margin: 30px 0;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(179, 157, 157);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+}
+#taskInput::placeholder {
+    color: white!important;
+}
+#addTask{
+    width: 15%;
+    height: 8%;
+    background: rgb(83, 76, 76);
+    margin: 30px 0;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(179, 157, 157);
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 50%;
+    color: white;
+}
+#addTask:hover{
+    background-color: hsl(0, 81%, 79%)!important;
+    color: black;
+}
+ul {
+    list-style-type: none ;
+    padding: 0;
+}
+li {
+    width: 80%;
+    height: 50px;
+    background: hsl(0, 40%, 71%);
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(179, 157, 157);
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+}
