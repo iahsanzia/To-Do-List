@@ -71,7 +71,7 @@ ul {
 li {
     width: 80%;
     height: 50px;
-    background: hsl(0, 40%, 71%);
+    background: hsl(0, 13%, 59%);
     margin: 10px 0;
     border: none;
     outline: none;
@@ -79,4 +79,14 @@ li {
     border-radius: 40px;
     text-align: center;
     color: white;
+}
+
+.deleteTask {
+    background-color: hsl(0, 61%, 42%);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer ;
+    margin-left: 300px;
 }
